@@ -1,6 +1,5 @@
 const express = require("express");
 const curdRouter = require("./routes/curd.route");
-const authRouter = require("./routes/auth.routes");
 const connectDB = require("./config/db");
 
 const app = express();
@@ -13,7 +12,6 @@ connectDB();
 
 // Routes
 app.use("/api", curdRouter);
-app.use("/api", authRouter);
 
 // Start server
 const PORT = process.env.PORT || 5000;

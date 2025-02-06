@@ -13,4 +13,4 @@ const authSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("auth", authSchema, "auth");
+module.exports = mongoose.model("curd", authSchema, "auth");
