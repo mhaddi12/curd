@@ -1,6 +1,6 @@
 const Model = require("../models/curd.model");
 const bcryptjs = require("bcryptjs");
-const Auth = require("../models/curd.model");
+const Auth = require("../models/auth.model");
 
 exports.registerUser = async (req, res) => {
   try {
@@ -13,7 +13,7 @@ exports.registerUser = async (req, res) => {
 
     res.status(200).json(data);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500).json({ message: error.message + "some error occured" });
   }
 };
 
