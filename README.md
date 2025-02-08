@@ -3,7 +3,7 @@
 **Localhost:**
 
 ```
-http://localhost:5000/api/login
+http://localhost:5000
 ```
 
 This is a simple Node.js CRUD API hosted on Render.
