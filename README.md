@@ -1,5 +1,11 @@
 # Node.js CRUD API
 
+**Localhost:**
+
+```
+http://localhost:5000/api/login
+```
+
 This is a simple Node.js CRUD API hosted on Render.
 
 ## Base URL
@@ -34,12 +40,6 @@ POST /register
 
 ```
 POST /login
-```
-
-**Localhost:**
-
-```
-http://localhost:5000/api/login
 ```
 
 **Description:** Authenticates a user and returns a token.
