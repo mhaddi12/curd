@@ -23,7 +23,6 @@ POST /register
 
 ```json
 {
-  "username": "exampleUser",
   "email": "user@example.com",
   "password": "securepassword"
 }
