@@ -124,7 +124,7 @@ PUT /updateCurd/67a490f4243ec281827c3a2f
 
 1. Clone the repository:
    ```sh
-   git clone <your-repository-url>
+   git clone https://github.com/mhaddi12/curd.git
    ```
 2. Navigate into the project directory:
    ```sh
